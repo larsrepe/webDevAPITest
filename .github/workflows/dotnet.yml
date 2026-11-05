@@ -20,6 +20,10 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 10.0.x
+    - name: Where are we
+      run: pwd
+    - name: List current dir
+      run: ls -lp
     - name: Restore dependencies
       run: dotnet restore ./DemoWebApi/
     - name: Build
