@@ -4,7 +4,6 @@ using DemoWebApi;
 
 namespace DemoWebApi.Tests;
 
-
 public class WeatherForecastTests : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> _factory;
